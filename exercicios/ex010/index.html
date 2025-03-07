@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/kendi182" target="_blank" rel="external">repositório público no Github</a></p> <!-- O atributo target="_blank" faz com que o link seja aberto em uma nova aba -->
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/" target="_blank" rel="external">canal gratuito no Youtube</a></p> <!-- O atributo rel="external" indica que o link é externo -->
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="page002.html" rel="next" target="_self">segunda página</a></p> <!-- O atributo rel="next" indica que o link é a próxima página -->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a></p> <!-- O atributo rel="next" indica que o link é a próxima página -->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/Configuração do Samba e Backup no Proxmox.pdf" download="Configuração do Samba e Backup no Proxmox.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!-- O atributo download faz com que o arquivo seja baixado ao invés de aberto -->
+        <li><a href="livro/Configuração do Samba e Backup no Proxmox.zip" download="Configuração do Samba e Backup no Proxmox.zip" type="application/zip">Livro compactado em ZIP</a></li> <!-- O atributo download faz com que o arquivo seja baixado ao invés de aberto -->
+    </ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospeado no meu próprio servidor</p>
+
+    <video width="500" controls autoplay loop poster="imagens/imagem.png"> <!-- O atributo width é responsável por definir a largura do vídeo, o atributo controls é responsável por exibir os controles de reprodução do vídeo, o atributo autoplay é responsável por iniciar a reprodução do vídeo automaticamente, o atributo loop é responsável por fazer o vídeo repetir infinitamente, o atributo poster é responsável por exibir uma imagem de capa do vídeo -->
+        <source src="midia/meu-video.webm" type="video/webm"> <!-- O atributo type é responsável por informar o tipo de arquivo de vídeo -->
+        <source src="midia/meu-video.mp4" type="video/mp4"> <!-- O atributo src é responsável por informar o caminho do arquivo de vídeo -->
+        <p>Seu navegador não tem compatibilidade de reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GcX266qIy0A?si=jhjcmW5Up6Io7K5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- O atributo width é responsável por definir a largura do vídeo, o atributo height é responsável por definir a altura do vídeo, o atributo src é responsável por informar o caminho do vídeo do Youtube, o atributo title é responsável por informar o título do vídeo, o atributo frameborder é responsável por informar se o vídeo terá bordas, o atributo allow é responsável por informar as permissões do vídeo, o atributo referrerpolicy é responsável por informar a política de referência do vídeo, o atributo allowfullscreen é responsável por permitir o vídeo em tela cheia -->
+</body>
+</html>
